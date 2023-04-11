@@ -1,0 +1,7 @@
+.messagesContainer {
+    height: 300px;;
+    overflow-y: scroll;
+    border-bottom: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    width: 290px;
+}

@@ -1,0 +1,31 @@
+.largeFrameCallVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blue;
+}
+
+.smallFrameCallVideo {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 50px;
+    right: 50px;
+    border-radius: 10px;
+}
+
+#myVideoCallVideo {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 50px;
+    right: 50px;
+    border-radius: 10px;
+}
+
+#remoteVideoCallVideo {
+    width: 100%;
+    height: 100%;
+}

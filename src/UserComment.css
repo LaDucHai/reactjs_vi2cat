@@ -1,0 +1,132 @@
+.userComment {
+    padding-bottom: 5px;
+}
+
+.userCommentTop {
+    display: flex;
+}
+
+.userCommentBG {
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+}
+
+.userCommentInfo {
+    display: flex;
+    align-items: center;
+}
+
+.userCommentInfo > p {
+    font-weight: 600;
+    padding-left: 2px;
+    display: flex;
+}
+
+.userCommentDefine {
+    padding-left: 5px;
+}
+
+.userCommentDefine > p {
+    font-size: 10px;
+    color: dodgerblue;
+}
+
+.moreCommentOptions {
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 15px;
+    height: min-content;
+}
+
+.moreCommentOptions:hover {
+    background-color: gray;
+}
+
+.contentCommentPerson {
+    margin-top: -25px;
+    padding-left: 25px;
+}
+
+.contentCommentPerson > p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.commentInteractive {
+    display: flex;
+    padding-left: 25px;
+    margin-top: -10px;
+}
+
+.commentInteractive > p {
+    cursor: pointer;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.commentInteractive > p:hover{
+    color: grey;
+}
+
+.replyComment {
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.contentReplyComment {
+    margin-left: 25px;
+    margin-top: -15px;
+    display: none;
+}
+
+.contentReplyComment > p {
+    cursor: pointer;
+}
+
+.imgCommentContainer {
+    display: flex;
+    align-items: center;
+}
+
+.allImgComments {
+    padding-left: 200px;
+}
+
+.allImgComment > img {
+    width: 30px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    transform: scale(1);
+    cursor: pointer;
+    display: none;
+}
+
+.allImgComment > img.active {
+    transform: scale(1.2);
+}
+
+.allImgComment > img:hover {
+    transform: scale(1.2);
+}
+
+.allImgComment {
+    display: flex;
+}
+
+.imgComment {
+    max-width: 100px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+
+

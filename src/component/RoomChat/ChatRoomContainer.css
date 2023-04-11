@@ -1,0 +1,8 @@
+.chatRoomContainer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    z-index: 3;
+    align-items: flex-end;
+}

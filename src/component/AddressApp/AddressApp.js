@@ -1,0 +1,1 @@
+export const AddressApp = 'https://localhost:4000/';

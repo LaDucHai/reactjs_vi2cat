@@ -1,0 +1,43 @@
+.callVideoDialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.callVideoDialog.active {
+    transform: scale(1);
+}
+
+.callVideoDialogInfor {
+    display: flex;
+    align-items: center;
+}
+
+.callVideoDialogInfor > div {
+    margin-left: 5px;
+}
+
+.callVideoDialogButton {
+    display: flex;
+    justify-content: center;
+}
+
+.callVideoDialogButton > button {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.accept {
+    background-color: blue;
+}
+
+.cancel {
+    background-color: red;
+}

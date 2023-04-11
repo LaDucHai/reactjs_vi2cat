@@ -1,0 +1,49 @@
+.divPost {
+    display: flex;
+}
+
+.btnPost {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.divPostLeft {
+    width: 30%;
+    height: 100%;
+}
+
+.divPostRight {
+    width: 70%;
+    height: 100%;
+    background-color: crimson;
+}
+
+.textStatus {
+    justify-content: center;
+}
+
+.textStatus > input {
+    width: 80%;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.optionsStatus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionStatus {
+    cursor: pointer;
+}
+
+.optionStatus:hover {
+    background-color: darkgray;
+}
+
+#preview_img {
+    width: 500px;
+    height: 250px;
+    display: none;
+}

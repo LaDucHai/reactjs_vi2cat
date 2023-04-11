@@ -1,0 +1,110 @@
+.message1 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.message1Avatar {
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.message1Avatar > button {
+    display: none;
+    position: absolute;
+    margin-right: 50px; 
+    background-color: white;
+    transition: display 1s;
+}
+
+.message1Avatar > button.active {
+    display: block;
+}
+
+.message1Avatar > button:hover {
+    display: block;
+}
+
+.message1Content {
+    word-wrap: break-word;
+    max-width: 60%;
+    background-color: rgb(236, 236, 236);
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.messageIcon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.messageIcon > div {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.messageIcon > div:hover {
+    color: gray;
+}
+
+.messageIcon > div:hover > div{
+    display: block;
+}
+
+.messageIconText {
+    display: none;
+    margin-bottom: 25px;
+    background-color: black;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+    position: fixed;
+}
+
+.message0 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.message0Content {
+    background-color: rgb(14, 159, 255);
+    word-wrap: break-word;
+    max-width: 75%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.message1ContentBottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message1ContentBottom > div {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -5px;
+    background-color: rgb(212, 212, 212);
+    padding: 1px 1px 0px 1px;
+    border-radius: 5px;
+}
+
+.message0ContentBottom {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.message0ContentBottom > div {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: -5px;
+    background-color: rgb(212, 212, 212);
+    padding: 1px 1px 0px 1px;
+    border-radius: 5px;
+}

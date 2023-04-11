@@ -1,0 +1,42 @@
+.chatContainer {
+    width: 18%;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 50px;
+}
+
+.chatContainer_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: min-content;
+    margin: 5px 5px 5px 5px;
+}
+
+.chatContainer_topLeft > div {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.chatContainer_topRight {
+    display: flex;
+}
+
+.chatContainer_topRight > div {
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.chatContainer_topRight > div:hover {
+    background-color: rgb(218, 218, 218);
+    margin-left: 3px;
+    border-radius: 10px;
+}
+
+.chatContainer_bottom {
+    overflow-y: scroll;
+    height: 100%;
+}

@@ -1,0 +1,55 @@
+.postVideo {
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    background-color: white;
+}
+
+.postVideo > p {
+    color:gray;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile > p {
+    padding-right: 10px;
+}
+
+.postTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listVideo {
+    display: flex;
+    align-items: center;
+}
+
+.commentPost {
+    display: flex;
+    align-items: center;
+}
+
+.postIcon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .postIcon > p {
+    padding-left: 10px;
+} */
+
+.bottomContent {
+    display: flex;
+    justify-content: space-between;
+}
+

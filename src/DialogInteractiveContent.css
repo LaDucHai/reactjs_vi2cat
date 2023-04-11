@@ -1,0 +1,15 @@
+.dialogInteractiveContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialogInteractiveContent-body-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dialogInteractiveContent-body-left > p {
+    padding: 0 5px;
+}

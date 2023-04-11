@@ -1,0 +1,15 @@
+.notifications {
+    position: absolute;
+    margin-top: 30px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    height: min-content;
+    max-height: 600px;
+    width: 300px;
+    overflow-y: scroll;
+    display: none;
+}
+
+.notifications.active {
+    display: block;
+}

@@ -1,0 +1,13 @@
+.tabinput {
+    display: flex;
+    padding: 10px;
+}
+
+.information {
+    padding: 10px;
+}
+
+.inbutton {
+    background-color:skyblue;
+    margin: 10px;
+}
